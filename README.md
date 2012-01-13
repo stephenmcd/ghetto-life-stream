@@ -28,17 +28,18 @@ namely the Google Buzz and blog feeds.
 
 Example usage:
 
-   <? foreach (get_buzz_entries() as $entry) { ?>
-   <div>
-       <a href="<?= $entry["profile"] ?>"><img
-           src="/img/icons/<?= $entry["source"] ?>.png"
-           alt="<?= $entry["source"] ?>" /></a>
-       <p>
-           <?= $entry["body"] ?>
-           <? if ($entry["link"]) { ?>
+    <? foreach (get_buzz_entries() as $entry) { ?>
+    <div>
+        <a href="<?= $entry["profile"] ?>"><img
+            src="/img/icons/<?= $entry["source"] ?>.png"
+            alt="<?= $entry["source"] ?>" /></a>
+        <p>
+            <?= $entry["body"] ?>
+            <? if ($entry["link"]) { ?>
             <a class="more" href="<?= $entry["link"] ?>">read more</a>
-           <? } ?>
-           - <?= $entry["time"] ?>
-       </p>
-   </div>
-   <? } ?>
+            <? } ?>
+            - <?= $entry["time"] ?>
+        </p>
+    </div>
+    <? } ?>
+
