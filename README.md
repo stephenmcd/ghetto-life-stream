@@ -1,3 +1,6 @@
+
+Created by [Stephen McDonald](http://twitter.com/stephen_mcd)
+
 This is here for nostalgia only, Google Buzz doesn't exist anymore.
 
 The "ghetto" refers to PHP.
